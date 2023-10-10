@@ -21,6 +21,8 @@ function calculateResult() {
 }
 
 
+
+
 function calculateModulo() {
     try {
         displayValue = eval(displayValue) % 2;
@@ -30,6 +32,7 @@ function calculateModulo() {
         document.getElementById('display').value = displayValue;
     }
 }
+
 
 
 function calculateRoot() {
