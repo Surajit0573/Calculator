@@ -5,6 +5,8 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Calculator</title>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -15,7 +17,9 @@
     </div>
     <div class="buttons">
       <button id="btn" class="action" onclick="clearDisplay()">C</button>
-      <button id="btn" class="action" onclick="popFromDisplay()">&lt;</button>
+      <button id="btn" class="action" onclick="popFromDisplay()"><span class="material-symbols-outlined">
+          backspace
+        </span></button>
       <button id="leftButton" class="btn" onclick="appendToDisplay('7')">7</button>
       <button class="btn" onclick="appendToDisplay('8')">8</button>
       <button class="btn" onclick="appendToDisplay('9')">9</button>
